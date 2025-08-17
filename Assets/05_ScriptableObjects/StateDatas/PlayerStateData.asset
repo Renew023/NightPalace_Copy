@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a300d9c127e3844a4bc77103ff1104, type: 3}
+  m_Name: PlayerStateData
+  m_EditorClassIdentifier: 
+  <Ground>k__BackingField:
+    <WalkSpeed>k__BackingField: 3
+    <SprintSpeed>k__BackingField: 4.5
+    <SprintStaminaIncrease>k__BackingField: 5
+    <SprintStaminaDecrease>k__BackingField: 10
+    <CrouchSpeed>k__BackingField: 1
+    <CrouchDuration>k__BackingField: 0.9
+  <GroundCamShake>k__BackingField:
+    <Noise>k__BackingField: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4,
+      type: 2}
+    <AmplitudeOnIdle>k__BackingField: 0.2
+    <FrequencyOnIdle>k__BackingField: 0.005
+    <AmplitudeOnWalk>k__BackingField: 0.2
+    <FrequencyOnWalk>k__BackingField: 0.02
+    <AmplitudeOnSprint>k__BackingField: 0.3
+    <FrequencyOnSprint>k__BackingField: 0.04
+    <AmplitudeOnCrouch>k__BackingField: 0.1
+    <FrequencyOnCrouch>k__BackingField: 0.001
+    <AmplitudeOnJump>k__BackingField: 1
+    <FrequencyOnJump>k__BackingField: 0.01
+  <Air>k__BackingField:
+    <JumpForce>k__BackingField: 3
+    <JumpStaminaDecrease>k__BackingField: 10

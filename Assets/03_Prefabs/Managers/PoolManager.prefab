@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4823345887106790859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4013816739547442426}
+  - component: {fileID: 5175603497141548009}
+  - component: {fileID: 2411563572098820770}
+  m_Layer: 17
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4013816739547442426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4823345887106790859}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.7, y: 0, z: 52.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5175603497141548009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4823345887106790859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4b8587507e9dc4b9f6a2f5dc362ccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &2411563572098820770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4823345887106790859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63af901ebfc95014bb0a78e54df6ccf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnAreas:
+  - zoneId: 4
+    center: {x: -15, y: 0.1, z: 54}
+    size: {x: 28, y: 0, z: 105}
+    spawnCount: 20
+    spawnWeights: 1e00000046000000
+  - zoneId: 1
+    center: {x: -50.9, y: 0.1, z: 13.6}
+    size: {x: 40, y: 0, z: 25}
+    spawnCount: 10
+    spawnWeights: 3200000032000000
+  - zoneId: 2
+    center: {x: -63.1, y: 0.1, z: 53}
+    size: {x: 65, y: 0, z: 52}
+    spawnCount: 5
+    spawnWeights: 280000003c000000
+  - zoneId: 3
+    center: {x: -49, y: 0.1, z: 94.1}
+    size: {x: 36.7, y: 0, z: 27.4}
+    spawnCount: 10
+    spawnWeights: 5000000014000000
+  spawnInterval: 1
